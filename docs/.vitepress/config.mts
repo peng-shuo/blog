@@ -2,9 +2,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/blog/',
-  title: 'Peng 的学习博客',
-  description: '记录前端与工程化学习过程',
+  title: '积跬步',
+  description: '个人博客，记录技术探索、学习心得、工作笔记及生活感悟。',
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', href: '/blog/favicon.ico' }]
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
